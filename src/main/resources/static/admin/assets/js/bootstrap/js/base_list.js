@@ -12,6 +12,7 @@
 			    var oTableInit = new Object();
 			    //初始化Table
 			    oTableInit.Init = function () {
+			        debugger
 			        $('#dataTable').bootstrapTable({
 			        	contentType: "application/x-www-form-urlencoded",
 			            url:parms.dataUrl,     //请求后台的URL（*）

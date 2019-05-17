@@ -47,7 +47,7 @@ public class LogController extends BaseController{
 	 * @return
 	 */
 	@PostMapping("list")
-	@RequiresPermissions("system:log:list")
+//	@RequiresPermissions("system:log:list")
 	@ResponseBody
 	public Object list(Tablepar tablepar,String searchTxt){
 		PageInfo<TsysOperLog> page=sysOperLogService.list(tablepar,searchTxt) ; 
