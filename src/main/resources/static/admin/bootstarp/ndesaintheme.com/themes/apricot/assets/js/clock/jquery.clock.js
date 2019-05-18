@@ -43,7 +43,7 @@
       }
       else
       {
-        jQuery(_this).find(".hour").html(hours);
+        jQuery(_this).find(".hour").html(hours+3);
       }
       var meridiem = hours<12?'AM':'PM';
       jQuery(_this).find('.meridiem').html(meridiem);
